@@ -9,7 +9,7 @@ const FeaturedAuthors  = () => {
             <div className='flex justify-around text-center'>
                 {
                 Authors.map((author, i) => (
-                    <div>
+                    <div key={i}>
                     <Image src={author.profile_image} alt={author.name} className='mx-auto mb-4 w-28 h-28 rounded-lg' />
                     <h5>{author.name}</h5>
                     </div>
