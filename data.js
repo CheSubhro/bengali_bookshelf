@@ -16,11 +16,11 @@ import Author4 from './public/images/authors/author4.jpg'
 import Author5 from './public/images/authors/author5.jpg'
 
 export const Authors = [
-  { id: 1, name: "Mike", profile_image: Author1 },
-  { id: 2, name: "John", profile_image: Author2 },
-  { id: 3, name: "Angelina", profile_image: Author3 },
-  { id: 4, name: "Kristen", profile_image: Author4 },
-  { id: 5, name: "Tom", profile_image: Author5 },
+  { id: 1, name: "শঙ্খ ঘোষ", profile_image: Author1 },
+  { id: 2, name: "শীর্ষেন্দু", profile_image: Author2 },
+  { id: 3, name: "শরৎচন্দ্র", profile_image: Author3 },
+  { id: 4, name: "রবীন্দ্রনাথ", profile_image: Author4 },
+  { id: 5, name: "স্মরণজিৎ", profile_image: Author5 },
 ]
 
 export const Books = [
@@ -33,7 +33,7 @@ export const Books = [
   { id: 7, title: "Garden", book_cover: Book7, price: "178.00" },
   { id: 8, title: "Pencil", book_cover: Book8, price: "480.00" },
   { id: 9, title: "Soul", book_cover: Book9, price: "850.00" },
-  { id: 10, title: "Love", book_cover: Book10, price: "900.00" },
+  { id: 10,title: "Love", book_cover: Book10, price: "900.00" },
 ]
 
 export const FeatureBooks = [
@@ -42,7 +42,7 @@ export const FeatureBooks = [
   { id: 2, title: "Sword", book_cover: Book2, selling_price: "140.00", mrp: "5700.00" },
   { id: 6, title: "In Your Eyes", book_cover: Book6, selling_price: "500.00", mrp: "700.00" },
   { id: 5, title: "A Very Devis Dreams", book_cover: Book5, selling_price: "456.00", mrp: "900.00" },
-  { id: 8, title: "Pencil", book_cover: Book8, selling_price: "480.00", mrp: "870.00" },
+  { id: 8, title: "শিব্রাম বনাম শিবরাম", book_cover: Book8, selling_price: "480.00", mrp: "870.00" },
   { id: 7, title: "Garden", book_cover: Book7, selling_price: "178.00", mrp: "600.00" },
   { id: 10, title: "Love", book_cover: Book10, selling_price: "900.00", mrp: "1070.00" },
   { id: 1, title: "Love of My Life", book_cover: Book1, selling_price: "100.00", mrp: "600.00" },
