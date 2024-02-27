@@ -15,8 +15,8 @@ const WeekBook  = () => {
                 </div>
                 <div className="text-center">
                 <h2 className="text-2xl font-bold mb-2">Book of the Week</h2>
-                <p className="text-lg">Pencil</p>
-                <p className='italic'>by Olivia Wilson</p>
+                <p className="text-lg">শিব্রাম বনাম শিবরাম</p>
+                <p className='italic'>by শিবরাম</p>
                 </div>
             </div>
         </>
