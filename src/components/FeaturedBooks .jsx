@@ -34,7 +34,7 @@ const FeaturedBooks  = () => {
                 >
                     {
                     FeatureBooks.map((book, i) => (
-                        <SwiperSlide>
+                        <SwiperSlide key={book.id || i}>
                         <div className='flex flex-col items-center'>
                             <a href={book.id}>
                             <Image src={book.book_cover} alt={book.title} width="100px" />
